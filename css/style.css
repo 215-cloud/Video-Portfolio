@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.bg-video-wrap {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  background: url(https://designsupply-web.com/samplecontent/vender/codepen/20181014.png) no-repeat center center/cover;
+}
+video {
+  min-width: 100%;
+  min-height: 100vh;
+  z-index: 1;
+}
+.overlay {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
+
+.main {
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 3;
+  width: 100%;
+  height: 50%;
+  font-family: serif;
+}
+
+.card-body{
+  color: #000;
+}
+
+
+.my-size{
+  font-size: 1.5em 
+}
+
+h3{
+  margin-bottom: 50px;
+}
+h4{
+  margin-top: 10px;
+}
+.about{
+  margin: 0 auto;
+}
+
+a{
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
